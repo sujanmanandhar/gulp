@@ -1,3 +1,4 @@
+require 'compass/import-once/activate'
 require 'susy'
 require 'breakpoint'
 
