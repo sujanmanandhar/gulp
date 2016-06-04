@@ -12,27 +12,29 @@ var gulp = require('gulp'),
 //Scripts Task
 //////////////////////////////////////////
 gulp.task('scripts',function(){
-	gulp.src('app/js/**/*.js','!app/js/**/*.min.js')
-	.pipe(rename(suffix:".min"))
+	gulp.src(['henry/js/**/*.js','!henry/js/**/*.min.js'])
+	.pipe(rename({suffix:".min"}))
 	.pipe(uglify())
-	.pipe(gulp.dest('app/js'))
+	.pipe(gulp.dest('henry/js'))
 });
 
 
 //////////////////////////////////////////
 //Compass Sass Task
 //////////////////////////////////////////
-gult.task('compass',function(){
-	gulp.src('app/scss/style.scss')
+
+
+gulp.task('compass',function(){
+	gulp.src('henry/scss/style.scss')
 	.pipe(compass({
-		config_file: "/config.rb",
-		css:"app/css",
-		sass:'app.scss',
+		config_file: "./config.rb",
+		css:"henry/css",
+		sass:'henry.scss',
 		require:['susy']
 	}))
-	.pipe(gulp.dest('app/css/'))
+	
+	.pipe(gulp.dest('henry/css/'))
 });
-
 
 
 
@@ -40,9 +42,9 @@ gult.task('compass',function(){
 //////////////////////////////////////////
 //Watch Task
 //////////////////////////////////////////
-gult.task('watch',function(){
-	gulp.watch('app/js/**/*.js',['scripts']);
-	gulp.watch('app/scss/style.scss',['compass']);
+gulp.task('watch',function(){
+	gulp.watch('henry/js/**/*.js',['scripts']);
+	gulp.watch('henry/scss/style.scss',['compass']);
 });
 
 
