@@ -11,10 +11,6 @@ error_reporting(0);
 <meta name="description" content="--">
 <meta name="keywords" content="--">
 <title>Henry Robert</title>
-<link href="css/reset.css" type="text/css" rel="stylesheet">
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
-<link href="css/animate.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" href="css/flexslider.css" type="text/css">
 <link href="css/style.css" type="text/css" rel="stylesheet">
 
 

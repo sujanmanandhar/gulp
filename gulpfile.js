@@ -41,7 +41,7 @@ function errorlog(err){
 gulp.task('styles',function(){
 	gulp.src('henry/scss/style.scss')
 	.pipe(plumber())
-	.pipe(sass({outputStyle:'expanded'}))
+	.pipe(sass({outputStyle:'compressed'}))
 	.on('error',errorlog)
 	.pipe(autoprefixer({
 		browsers: ['last 2 versions'],
