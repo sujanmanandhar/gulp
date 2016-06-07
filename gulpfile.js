@@ -39,7 +39,7 @@ function errorlog(err){
 
 
 gulp.task('styles',function(){
-	gulp.src('henry/scss/style.scss')
+	gulp.src('henry/scss/**/*.scss')
 	.pipe(plumber())
 	.pipe(sass({outputStyle:'compressed'}))
 	.on('error',errorlog)
@@ -89,7 +89,7 @@ gulp.task('build',['build:copy','build:remove']);
 //////////////////////////////////////////
 gulp.task('watch',function(){
 	gulp.watch('henry/js/**/*.js',['scripts']);
-	gulp.watch('henry/scss/style.scss',['styles']);
+	gulp.watch('henry/scss/',['styles']);
 });
 
 

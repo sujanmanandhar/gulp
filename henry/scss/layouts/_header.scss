@@ -1,0 +1,55 @@
+/*********************Header part Start******************************************/
+	.top-border {
+		height:30px; background:#d8d8d8;
+		.right ul {
+			margin-left:105px;
+			li{
+				float:left;padding:5px 10px 5px 20px;
+				&:nth-child(1){background:url(../images/accoutn.png) no-repeat 5px center; background-color:#e15b23; color:#fff;}
+				&:nth-child(2){background:url(../images/wishlist.png) no-repeat 5px center; }
+				&:nth-child(3){background:url(../images/buy.png) no-repeat 3px center;}
+				&:nth-child(4){background:url(../images/checklist.png) no-repeat 5px center; }
+			}
+		}
+
+		.left ul li{
+			display:inline-block; padding:0px 10px; margin-top:5px; font-family: 'MYRIADPROREGULAR'; font-size:13px; color:#444444;
+			&:first-child, &:nth-child(2) {border-right:1px solid #444444;}
+		}
+	}	
+	
+	
+	
+	.header {
+		.login{
+			ul li {
+				display:inline-block; font-size:14px; font-family: 'MYRIADPROREGULAR'; padding:3px 5px 3px 15px;
+				&:nth-child(1){background:url(../images/lock.png) no-repeat left center;}
+				&:nth-child(2){background:url(../images/register.png) no-repeat left center; margin-left:5px;}
+			}
+			
+			form{
+				input {float:left;}
+				input[type=submit] {height: 33px; margin-left: -35px; width: 30px; border:none;}
+				input[type=text] {width:100%; padding:5px;}
+				input.submit {background:url(../images/search.png) no-repeat center center; text-indent:-9999px;}
+			}
+		} 
+		
+		.shopping {
+			padding-top:25px;
+			ul li { 
+				float:left; font-size:13px; color:#737373;
+				span {font-size:17px; color:#fff;}
+				&:nth-child(1) { width:35%;}
+				img {  border-right:1px solid #fff; padding-right:15px;}
+			}
+			 
+		}
+		
+
+	}
+	.navbar ul li.house {padding:8px !important;}
+
+
+/*********************Header part Start******************************************/

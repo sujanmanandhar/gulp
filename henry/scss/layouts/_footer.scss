@@ -1,0 +1,47 @@
+
+/*********************Footer page Start ******************************************/
+
+/********************Welcome-logo part Start******************************************/
+.footer {color:#fff; background:#452c1c;}
+.welcome {
+	margin-top:20px; 
+	.container {overflow:hidden;}
+	h3 {font-size:22px; text-transform:uppercase; margin-bottom:10px;}
+	img {margin-top:5px;}
+	p {font-size:13px;font-family: 'Open Sans'; line-height:16px; }
+	hr {border-top:1px solid #5f402c; border-bottom:1px solid #23150c; padding-bottom:0px !important;}
+	.foot {
+		margin-top:5px; margin-bottom:5px;
+		p {margin-top:10px;}
+	}
+}
+
+
+
+
+
+/*********************Welcome-logo part Start******************************************/
+
+/*********************Customer part Start******************************************/
+.customer-service { 
+	background:#452c1c; margin-top:-20px;
+	h3 {font-size:16px; text-transform:uppercase; margin-bottom:10px; color:#e15b23;}
+	ul li a {transition:color ease 0.5s; font-size:13px;font-family: 'Open Sans'; line-height:16px; color:#fff; background: url(../images/arrow.png) no-repeat left center; padding-left:15px; }
+	ul li a:hover {color:#c69271; }
+	form input {float:left;}
+	form input[type=submit] {height: 33px; width: 30%; border:none; background:#e15b23; transition:background 1s;}
+	form input[type=text] {width:70%; padding:6px 6px 7px 6px; border:none; color:#6b6b6b;}
+	ul.social li a { padding:0px !important; background:none !important;}
+	ul.social li {display:inline-block;}
+	ul.social li img {transition: all ease-out 0.4s; transform:rotate(0deg); border-radius:50%;}
+	ul.social li img:hover { transform:rotate(360deg);}
+	form input[type=submit]:hover { background:#bf4410; }
+	.map {margin-top:30px;}
+}
+
+
+/*********************Customer page Close ******************************************/
+
+
+.footer .bottom-footer p { margin-left:5px; margin-top:3px; color:#fff; font-family:Tahoma, Geneva, sans-serif; font-size:12px;}
+/*********************Footer page Close ******************************************/

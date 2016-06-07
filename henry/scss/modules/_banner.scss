@@ -1,0 +1,26 @@
+
+/*********************Banner part Start******************************************/
+.banner {
+	height:325px;
+	.background {position:relative !important; width:100%; margin:auto; }
+	.background  img.banner-bg {position:absolute; z-index:-2; width: 100%;}
+	ul.slides li { padding-top:70px;}
+	h4 {font-size:22px; color:#e15b23; text-transform:uppercase; font-weight:bold;}
+	h3 {font-size:28px; color:#fff; text-transform:uppercase; font-weight:bold; line-height:35px;}
+	p {font-size:13px; color:#fff;}
+	ul.slides li.slide1 {height:330px;}
+	ul.buyy li {
+		padding-top:10px; float:left; color:#fff; 
+		&:nth-child(1){padding:5px 10px; font-size:22px; background:#e15b23; transition:background 1s;}
+		&:nth-child(1):hover{padding:5px 10px; font-size:22px; background:#96370f; cursor:pointer;}
+		&:nth-child(2){padding:10px 10px 9px 45px;font-size:16px; background:#383838 url(../images/banner-buy.png) no-repeat 5px 10px;transition:background 1s;} 
+		&:nth-child(2):hover{background:#070707 url(../images/banner-buy.png) no-repeat 5px 10px; cursor:pointer;}
+	}
+	
+}
+.map1 {height:370px}
+.flexslider {border:none !important; background:none !important;}
+
+
+
+/*********************Banner part Start******************************************/
